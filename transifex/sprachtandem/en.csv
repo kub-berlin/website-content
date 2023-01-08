@@ -1,0 +1,249 @@
+"lang","en"
+"dateFormat","Y-m-d"
+"Table_intro","In this list you can see the current adverts. If you find a match, you can just go ahead an write this person a message."
+"Table_filtern","filter"
+"Table_Title ","Table"
+"Table_col_name","Name"
+"Table_col_spracheAng","Offered Language"
+"Table_col_spracheGes","Requested Language"
+"Table_col_datum","Activated on"
+"Table_col_ort","City"
+"Table_filter_alle","all"
+"Add_intro","You could not find a matching advert? Just enlist your own tandem-wish."
+"Add_name","Your Name"
+"Add_email","Your e-mail address"
+"Add_email_nochmal","Repeat e-mail address"
+"Add_alter","Your Age"
+"Add_ort","Your place of residency"
+"Add_geschlecht","Your Gender"
+"Add_skills","How good can you speek your requested Language?"
+"Add_skills_0","just a bit"
+"Add_skills_1","intermediate"
+"Add_skills_2","good"
+"Add_skills_3","very good"
+"Add_spracheAng","Your offered Language"
+"Add_spracheGes","Your requested Language"
+"Add_beschreibung","Tell us about yourself"
+"Add_senden","send"
+"Add_email_subject","%s Language Tandem: Your advert"
+"Add_notification_email","Hello %s,
+
+We are happy that you have posted an advert on %s-Language-Tandem. To activate your offer, please click here:
+%s
+
+People interested in your offer can now contact you via our portal. We will forward requests with contact details to you. Then you will be able to decide whether to conatct the person directly.
+
+Language Tandem provided by KuB aims to enable interactions free of discrimination. It matters to us that personal privacy and boundaries are respected. Sexual content is not appropriate for Language Tandem! It is not a platform for finding a partner! It can happen that someone does not abide by the rules. Therefore, please don't give any important data to people you don't know. Only provide your address, phone number or name if you trust the other person. It is safer to have your first meeting online. You can use platforms like Jitsi: http://meet.systemli.org
+If you have any negative experiences at a meeting, please report this to: sprachtandem@kub-berlin.org
+
+We wish you lots of success and fun with %s-Language-Tandem!
+
+Best wishes,
+
+%s-Language-Tandem-Team
+
+
+
+You can delete your advert via the following link:
+%s
+
+You can edit your advert via the following link:
+%s
+
+If you have questions or suggestions, please contact us via the following email address: %s"
+"Add_datenschutz","I agree that my data such as name and email address will be saved. This data will only be used to drive the KuB Language Tandem. "
+"Add_ausfuellen","Please fill in all fields, enter a correct e-mail address and accept the privacy terms."
+"Add_Title","Add Advert"
+"Add_gesendet","Your advert is submitted.
+
+Now you will receive an e-mail from us, including an activation link for your advert. If you click on this link, your advert will be released."
+"Add_nichtGesendet","The confirmation e-mail could not be sent. Propably you entered an e-mail address, which is not correct."
+"zurueck","back"
+"View_alter","Age"
+"View_geschlecht","Gender"
+"View_skills","Language skills"
+"View_skills_0","just a bit"
+"View_skills_1","intermediate"
+"View_skills_2","good"
+"View_skills_3","very good"
+"View_ort","Place of residency"
+"View_spracheAng","Offered Language"
+"View_spracheGes","Requested Language"
+"View_beschreibung","Description"
+"View_Form_name","Your name"
+"View_Form_alter","Your age"
+"View_Form_geschlecht","Your gender"
+"View_Form_ort","Your city"
+"View_Form_email","Your e-mail address"
+"View_Form_email_nochmal","Repeat e-mail adress"
+"View_Form_text","Your Message"
+"View_Form_nachrichtAn","Send message to"
+"View_Form_ausfuellen","Please fill in all fields, enter a valid email addess and accept the data security requirements."
+"View_Form_senden","send"
+"View_AnzeigeMelden","report advert"
+"View_gesendet","Your message was sent. If the provider of this advert is interested in a Sprach-Tandem with you, he/she will contect you directly."
+"View_nichtGesendet","Your message could not be sent. Propably you entered an e-mail address, which is not correct."
+"View_email_subject","%s Language Tandem: You have a new message"
+"View_notification_email","Hello %s,
+
+%s is interested in starting a language tandem with you.
+
+Age: %s
+Gender: %s
+Place of Residency: %s
+Email address: %s
+
+They left the following message for you:
+
+%s
+
+
+We wish you fun with your first meeting. We recommend that you hold your first language tandem meeting online. You can use Jitsi or Skype to do so. If you meet an unknown person for the first time, we recommend you use a public location, where you won't be alone.
+
+Best wishes,
+
+%s-Language-Tandem-Team"
+"View_datenschutz","I agree that my data such as name and email address will be saved. This data will only be used to drive the KuB Language Tandem."
+"sprache_afrikaans","Afrikaans"
+"sprache_albanisch","Albanian"
+"sprache_amharisch","Amharic"
+"sprache_arabisch","Arabian"
+"sprache_armenisch","Armenian"
+"sprache_bambara","Bambara"
+"sprache_bengali","Bengali"
+"sprache_bosnisch","Bosnian"
+"sprache_bulgarisch","Bulgarian"
+"sprache_chinesisch","Chinese"
+"sprache_daenisch","Danish"
+"sprache_deutsch","German"
+"sprache_englisch","English"
+"sprache_estnisch","Estorian"
+"sprache_ewe","Ewe"
+"sprache_finnisch","Finnish"
+"sprache_franzoesisch","French"
+"sprache_fula","Fula"
+"sprache_griechisch","Greek"
+"sprache_gujarati","Gujarati"
+"sprache_hausa","Hausa"
+"sprache_hebräisch","Hebrew"
+"sprache_hindi","Hindi"
+"sprache_igbo","Igbo"
+"sprache_indonesisch","Indonesian"
+"sprache_isländisch","Icelandic"
+"sprache_italienisch","Italian"
+"sprache_japanisch","Japanese"
+"sprache_javanisch","Javanese"
+"sprache_kannada","Kannada"
+"sprache_kikongo","Kikongo"
+"sprache_koreanisch","Korean"
+"sprache_krio","Krio"
+"sprache_kroatisch","Croatian"
+"sprache_kurdisch","Kurdish"
+"sprache_lamnso","Lamnso"
+"sprache_lettisch","Latvian"
+"sprache_lingala","Lingala"
+"sprache_litauisch","Lithuanian"
+"sprache_maltesisch","Maltese"
+"sprache_marathi","Marathi"
+"sprache_mazedonisch","Macedonian"
+"sprache_mongolisch","Mongolian"
+"sprache_niederlaendisch","Dutch"
+"sprache_norwegisch","Norwegian"
+"sprache_russisch","Russian"
+"sprache_paschto","Pashto"
+"sprache_persisch","Persian"
+"sprache_pidgin","Pidgin"
+"sprache_polnisch","Polnish"
+"sprache_portugiesisch","Portugisisch"
+"sprache_punjabi","Punjabi"
+"sprache_romanes","Romanes"
+"sprache_rumaenisch","Romanian"
+"sprache_serbisch","Serbian"
+"sprache_singhalesisch","Singhalese"
+"sprache_schwedisch","Schwedish"
+"sprache_slowakisch","Slowakian"
+"sprache_slowenisch","Slowenian"
+"sprache_somali","Somali"
+"sprache_sotho","Sotho"
+"sprache_spanisch","Spanish"
+"sprache_swahili","Swahili"
+"sprache_tamilisch","Tamil"
+"sprache_telugu","Telugu"
+"sprache_thailaendisch","Thai"
+"sprache_tigrinya","Tigrinya"
+"sprache_tschechisch","Czech"
+"sprache_tuerkisch","Turkish"
+"sprache_twi","Twi"
+"sprache_ukrainisch","Ukrainian"
+"sprache_ungarisch","Hungarian"
+"sprache_urdu","Urdu"
+"sprache_weissrussisch","Belarussian"
+"sprache_wolof","Wolof"
+"sprache_vietnamesisch","Vietnamese"
+"sprache_yoruba","Yoruba"
+"sprache_zulu","Zulu"
+"sprache_gebaerdensprache","sign Language"
+"releaseDataset","Advert activated"
+"releaseDataset_Title","%s Language Tandem - Activate advert"
+"deleteDataset_button_yes","Yes"
+"deleteDataset_button_no","No"
+"deleteDataset","Adverd deleted"
+"deleteDataset_Title","%s Language Tandem - Delete Advert"
+"editDataset","The Changes on your advert were submitted."
+"editDataset_Title","%s Language Tandem - Edit advert"
+"Report_Title","%s Language Tandem - Report Advert"
+"Statistik_Title","%s Language Tandem - Statistics"
+"Title","%s Language Tandem"
+"Report_Form_email","Your E-mail address"
+"Report_Form_email_nochmal","Repeat e-mail address"
+"Report_Form_name","Your Name"
+"Report_Form_text","Describe, why you want to report the advert, please."
+"Report_Form_senden","send"
+"Report_textabove","At %s Language Tandem, we try to create a space without discrimination. Please feel free to contact us if you have any bad experiences."
+"Report_gesendet","Message sent!"
+"Report_nichtGesendet","Message sent!"
+"Report_zurück","back"
+"Report_email_subject","%s Language Tandem - Advert reported"
+"Report_email","Hello,
+
+an advert was reported:
+
+by: %s
+
+reason: %s
+
+This advert was reported:
+%s (%s)
+
+%s"
+"Reminder_email","Hello %s,
+
+We hope you continue to have fun and success with %s-Language-Tandem!
+
+What kind of experiences have you had with Language Tandem so far? You can share your experiences with us here:
+%s
+
+You can delete your advert via the following link:
+%s
+
+You can edit your advert via the following link:
+%s
+
+If you have questions or suggestions, you can contact us via: %s
+
+Best wishes,
+
+%s-Language-Tandem-Team"
+"Reminder_subject","%s Sprach Tandem: Your advert"
+"Edit_ok","Data saved"
+"Feedback_title","Experience report"
+"Feedback_intro","Tell us about your experiences with the language tandem:"
+"Feedback_frage1","Did you create an advert at language tandem?"
+"Feedback_frage2","Did someone respond to your advert?"
+"Feedback_frage3","Did you respond to a language tandem advert?"
+"Feedback_frage4","Was the communication respectful?"
+"Feedback_frage5","Did you meet someone for a language tandem?"
+"Feedback_frage6","Did the meetings with language tandem partners go well?"
+"Feedback_frage7","If you want, you can write more about the experience:"
+"Feedback_frage8","Where did you meet with your language tandem partners?"
+"Feedback_senden","send"

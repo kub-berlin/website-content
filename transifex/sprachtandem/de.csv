@@ -1,0 +1,254 @@
+"lang","de"
+"dateFormat","d.m.Y"
+"Table_intro","In der folgenden Liste können Sie die aktuellen Anzeigen sehen. Falls eine passende Anzeige für Sie dabei ist, können Sie der Person einfach eine Nachricht schicken."
+"Table_filtern","filtern"
+"Table_Title ","Tabelle"
+"Table_col_name","Name"
+"Table_col_spracheAng","Angebotene Sprache"
+"Table_col_spracheGes","Gesuchte Sprache"
+"Table_col_datum","Eingestellt am"
+"Table_col_ort","Ort"
+"Table_filter_alle","alle"
+"Add_intro","Keine passende Anzeige gefunden? Dann tragen Sie ihren Tandem-Wunsch einfach selbst in die Liste ein."
+"Add_name","Ihr Name"
+"Add_email","Ihre Email-Adresse"
+"Add_email_nochmal","Email-Adresse wiederholen"
+"Add_alter","Ihr Alter"
+"Add_ort","Ihr Wohnort"
+"Add_geschlecht","Ihr Geschlecht"
+"Add_skills","Wie gut können Sie ihre Wunschsprache sprechen?"
+"Add_skills_0","ein bisschen"
+"Add_skills_1","geht so"
+"Add_skills_2","gut"
+"Add_skills_3","sehr gut"
+"Add_spracheAng","Von Ihnen angebotene Sprache"
+"Add_spracheGes","Ihre Wunschsprache"
+"Add_beschreibung","Erzählen Sie ein bisschen von sich"
+"Add_senden","senden"
+"Add_email_subject","%s-Sprach-Tandem: Ihre Anzeige"
+"Add_notification_email","Hallo %s,
+
+wir freuen uns, dass Sie eine Anzeige beim %s-Sprach-Tandem aufgegeben haben. Bitte klicken hier um ihr Angebot zu aktivieren:
+%s
+
+Interessierte können Sie nun über unser Portal kontaktieren. Wir leiten Ihnen Anfragen mit den Kontaktdaten weiter. Sie entscheiden dann, ob Sie in direkten Kontakt treten möchten.
+
+Das Sprach-Tandem von der KuB möchte einen Austausch ohne Diskriminierungen ermöglichen. Uns ist wichtig, dass die Grenzen der anderen Personen respektiert werden.
+Das Sprach-Tandem ist kein Ort für sexuelle Inhalte! Es ist keine Partner*innen-Börse!
+Es kann passieren, dass sich eine Person nicht an die Regeln hält. Bitte geben Sie deshalb keine wichtige Daten an Personen, die sie nicht kennen. Geben Sie ihre Adresse, Telefonnummer und Namen nur weiter, wenn Sie der anderen Person vertrauen können.
+Es ist sicherer, wenn das erste Treffen online stattfindet. Das geht zum Beispiel bei Jitsi: http://meet.systemli.org.
+Sollten Sie bei Ihren Treffen negative Erfahrungen machen, melden Sie sich bitte bei: sprachtandem@kub-berlin.org
+
+Wir wünschen Ihnen viel Erfolg und viel Spaß beim %s-Sprach-Tandem!
+
+Beste Grüße
+
+%s-Sprach-Tandem-Team
+
+
+
+Sie können Ihr Angebot unter dem folgenden Link löschen:
+%s
+
+Sie können Ihr Angebot unter dem folgenden Link bearbeiten:
+%s
+
+Bei Fragen und Anregungen können Sie sich unter der folgenden Email-Adresse bei uns melden: %s"
+"Add_datenschutz","Ich bin einverstanden, dass meine Daten wie zum Beispiel mein Name und meine Emailadresse gespeichert werden. Diese Daten werden nur zum Betrieb des KuB-Sprach-Tandems verwendet."
+"Add_ausfuellen","Bitte alle Felder ausfüllen, ein gültige Email-Adresse angeben und die Datenschutzbedingungen akzeptieren."
+"Add_Title","Anzeige aufgeben"
+"Add_gesendet","Ihre Anzeige wurde aufgenommen.
+
+Sie werden jetzt eine Email von uns erhalten, die einen Aktivierungslink für die Anzeige enthält. Wenn Sie auf diesen Link klicken, wird Ihre Anzeige veröffentlicht."
+"Add_nichtGesendet","Die Bestätigungsemail konnte leider nicht versendet werden. Wahrscheinlich ist die von Ihnen eingegebene Email-Adresse nicht korrekt."
+"zurueck","zurück"
+"View_alter","Alter"
+"View_geschlecht","Geschlecht"
+"View_skills","Sprachkenntnis"
+"View_skills_0","ein bisschen"
+"View_skills_1","geht so"
+"View_skills_2","gut"
+"View_skills_3","sehr gut"
+"View_ort","Wohnort"
+"View_spracheAng","Angebotene Sprache"
+"View_spracheGes","Gesuchte Sprache"
+"View_beschreibung","Beschreibung"
+"View_Form_name","Ihr Name"
+"View_Form_alter","Ihr Alter"
+"View_Form_geschlecht","Ihr Geschlecht"
+"View_Form_ort","Ihr Wohnort"
+"View_Form_email","Ihre Emailadresse"
+"View_Form_email_nochmal","Email-Adresse wiederholen"
+"View_Form_text","Ihre Nachricht"
+"View_Form_nachrichtAn","Nachricht senden an"
+"View_Form_ausfuellen","Bitte alle Felder ausfüllen, ein gültige Email-Adresse angeben und die Datenschutzbedingungen akzeptieren."
+"View_Form_senden","senden"
+"View_AnzeigeMelden","Anzeige melden"
+"View_gesendet","Ihre Nachricht wurde abgeschickt. Wenn der/die Anbieter_in dieser Anzeige Interesse an einem Sprach-Tandem mit Ihnen hat, wird er/sie sich direkt bei Ihnen melden."
+"View_nichtGesendet","Ihre Nachricht konnte nicht abgeschickt werden. Wahrscheinlich ist die von Ihnen eingegebene Email-Adresse nicht korrekt."
+"View_email_subject","%s-Sprach-Tandem: Sie haben eine Nachricht"
+"View_notification_email","Hallo %s,
+
+%s ist an einem Sprach-Tandem %s-%s mit Ihnen interessiert.
+
+Alter: %s
+Geschlecht: %s
+Wohnort: %s
+Email-Adresse: %s
+
+Es wurde folgende Nachricht bei uns für Sie hinterlassen:
+
+%s
+
+
+Wir wünschen Ihnen viel Spaß beim ersten Treffen. Wir empfehlen, dass Ihr erstes Sprach-Tandem-Treffen online stattfindet. Das geht zum Beispiel bei Jitsi oder Skype. Wenn Sie sich mit einer unbekannten Person zum ersten Mal Treffen, empfehlen wir einen öffentlichen Ort, wo Sie nicht allein sind.
+
+Beste Grüße
+
+%s-Sprach-Tandem-Team"
+"View_datenschutz","Ich bin einverstanden, dass meine Daten wie zum Beispiel mein Name und meine Emailadresse gespeichert werden. Diese Daten werden nur zum Betrieb des KuB-Sprach-Tandems verwendet."
+"sprache_afrikaans","Afrikaans"
+"sprache_albanisch","Albanisch"
+"sprache_amharisch","Amharisch"
+"sprache_arabisch","Arabisch"
+"sprache_armenisch","Armenisch"
+"sprache_bambara","Bambara"
+"sprache_bengali","Bengali"
+"sprache_bosnisch","Bosnisch"
+"sprache_bulgarisch","Bulgarisch"
+"sprache_chinesisch","Chinesisch"
+"sprache_daenisch","Dänisch"
+"sprache_deutsch","Deutsch"
+"sprache_englisch","Englisch"
+"sprache_estnisch","Estnisch"
+"sprache_ewe","Ewe"
+"sprache_finnisch","Finnisch"
+"sprache_franzoesisch","Französisch"
+"sprache_fula","Fula"
+"sprache_griechisch","Griechisch"
+"sprache_gujarati","Gujarati"
+"sprache_hausa","Hausa"
+"sprache_hebräisch","Hebräisch"
+"sprache_hindi","Hindi"
+"sprache_igbo","Igbo"
+"sprache_indonesisch","Indonesisch"
+"sprache_isländisch","Isländisch"
+"sprache_italienisch","Italienisch"
+"sprache_japanisch","Japanisch"
+"sprache_javanisch","Javanisch"
+"sprache_kannada","Kannada"
+"sprache_kikongo","Kikongo"
+"sprache_koreanisch","Koreanisch"
+"sprache_krio","Krio"
+"sprache_kroatisch","Kroatisch"
+"sprache_kurdisch","Kurdisch"
+"sprache_lamnso","Lamnso"
+"sprache_lettisch","Lettisch"
+"sprache_lingala","Lingala"
+"sprache_litauisch","Litauisch"
+"sprache_maltesisch","Maltesisch"
+"sprache_marathi","Marathi"
+"sprache_mazedonisch","Mazedonisch"
+"sprache_mongolisch","Mongolisch"
+"sprache_niederlaendisch","Niederländisch"
+"sprache_norwegisch","Norwegisch"
+"sprache_russisch","Russisch"
+"sprache_paschto","Paschto"
+"sprache_persisch","Persisch"
+"sprache_pidgin","Pidgin"
+"sprache_polnisch","Polnisch"
+"sprache_portugiesisch","Portugiesisch"
+"sprache_punjabi","Punjabi"
+"sprache_romanes","Romanes"
+"sprache_rumaenisch","Rumänisch"
+"sprache_serbisch","Serbisch"
+"sprache_singhalesisch","Singhalesisch"
+"sprache_schwedisch","Schwedisch"
+"sprache_slowakisch","Slowakisch"
+"sprache_slowenisch","Slowenisch"
+"sprache_somali","Somali"
+"sprache_sotho","Sotho"
+"sprache_spanisch","Spanisch"
+"sprache_swahili","Swahili"
+"sprache_tamilisch","Tamil"
+"sprache_telugu","Telugu"
+"sprache_thailaendisch","Thai"
+"sprache_tigrinya","Tigrinya"
+"sprache_tschechisch","Tschechisch"
+"sprache_tuerkisch","Türkisch"
+"sprache_twi","Twi"
+"sprache_ukrainisch","Ukrainisch"
+"sprache_ungarisch","Ungarisch"
+"sprache_urdu","Urdu"
+"sprache_weissrussisch","Weißrussisch"
+"sprache_wolof","Wolof"
+"sprache_vietnamesisch","Vietnamesisch"
+"sprache_yoruba","Yoruba"
+"sprache_zulu","Zulu"
+"sprache_gebaerdensprache","Gebärdensprache"
+"releaseDataset","Anzeige aktiviert"
+"releaseDataset_Title","%s-Sprach-Tandem - Anzeige aktivieren"
+"deleteDataset_button_yes","Ja"
+"deleteDataset_button_no","Nein"
+"deleteDataset","Anzeige gelöscht"
+"deleteDataset_Title","%s-Sprach-Tandem - Soll Ihre Anzeige wirklich gelöscht werden?"
+"editDataset","Die Änderungen an deiner Anzeige wurden übernommen."
+"editDataset_Title","%s-Sprach-Tandem - Anzeige bearbeiten"
+"Report_Title","%-Sprach-Tandem - Anzeige melden"
+"Statistik_Title","%-Sprach-Tandem - Statistik"
+"Title","%s-Sprach-Tandem"
+"Report_Form_email","Ihre Emailadresse (optional)"
+"Report_Form_email_nochmal","Email-Adresse wiederholen"
+"Report_Form_name","Ihr Name (optional)"
+"Report_Form_text","Bitte beschreiben Sie uns, warum Sie diese Anzeige melden möchten"
+"Report_Form_senden","senden"
+"Report_textabove","Das %s-Sprach-Tandem möchte einen diskriminierungsfreien Austausch ermöglichen. Sollten Sie negative Erfahrungen machen, melden Sie sich bitte bei uns."
+"Report_gesendet","Nachricht gesendet!"
+"Report_nichtGesendet","Nachricht gesendet!"
+"Report_zurück","zurück"
+"Report_email_subject","%s-Sprach-Tandem - Anzeige gemeldet"
+"Report_email","Hallo,
+
+es wurde eine Anzeige gemeldet:
+
+von: %s
+
+email: %s
+
+Begründung: %s
+
+Diese Anzeige wurde gemeldet:
+%s (%s)
+
+%s"
+"Reminder_email","Hallo %s,
+
+Wir wünschen Ihnen weiterhin viel Erfolg und viel Spaß beim %s-Sprach-Tandem!
+
+Welche Erfahrungen haben Sie mit dem Sprach-Tandem gemacht? Sie können uns ihre Erfahrungen mitteilen:
+%s
+
+Sie können Ihr Angebot unter dem folgenden Link löschen:
+%s
+
+Sie können Ihr Angebot unter dem folgenden Link bearbeiten:
+%s
+
+Bei Fragen und Anregungen können Sie sich bei uns melden: %s
+
+Beste Grüße
+
+%s-Sprach-Tandem-Team"
+"Reminder_subject","%s-Sprach-Tandem: Ihre Anzeige"
+"Edit_ok","Daten gespeichert"
+"Feedback_title","Erfahrungsbericht"
+"Feedback_intro","Erzählen Sie uns, welche Erfahrungen Sie mit dem Sprach-Tandem gemacht haben:"
+"Feedback_frage1","Haben Sie eine eigene Anzeige beim Sprach-Tandem aufgegeben?"
+"Feedback_frage2","Hat sich eine Person auf Ihre Anzeige gemeldet?"
+"Feedback_frage3","Haben Sie auf eine Anzeige beim Sprach-Tandem geantwortet?"
+"Feedback_frage4","War die Kommunikation respektvoll?"
+"Feedback_frage5","Haben Sie sich mit einer Person für ein Sprach-Tandem getroffen?"
+"Feedback_frage6","Sind die Treffen mit Sprach-Tandem-Partner*innen gut gelaufen?"
+"Feedback_frage7","Wenn Sie wollen, können Sie mehr zu den Erfahrungen schreiben:"
+"Feedback_frage8","Wo haben Sie sich mit Ihren Sprach-Tandem-Partner*innen getroffen?"
+"Feedback_senden","senden"
