@@ -7,6 +7,10 @@ kubpull: scripts/kub_pull.py .env website.csv
 kubpush: scripts/kub_push.py .env website.csv
 	env $$(cat .env | xargs) python3 scripts/kub_push.py
 
+.PHONY: normalize
+normalize:
+	find transifex website | xargs dos2unix
+
 .PHONY: txpull
 txpull: .tx/config
 	tx pull -a --use-git-timestamps
