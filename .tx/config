@@ -1,14 +1,6 @@
 [main]
 host = https://www.transifex.com
 
-[o:kub:p:webseite-2:r:aktuelles-wieder-offene-rechtsberatung]
-file_filter   = transifex/aktuelles-wieder-offene-rechtsberatung/<lang>.html
-source_file   = transifex/aktuelles-wieder-offene-rechtsberatung/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Aktuelles - Wieder offene Rechtsberatung
-
 [o:kub:p:webseite-2:r:allgemein]
 file_filter   = transifex/allgemein/<lang>.csv
 source_file   = transifex/allgemein/de.csv
@@ -25,14 +17,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Beratung für geflüchtete Frauen
 
-[o:kub:p:webseite-2:r:beratung-fur-internationale-studierende-in-potsdam]
-file_filter   = transifex/beratung-fur-internationale-studierende-in-potsdam/<lang>.html
-source_file   = transifex/beratung-fur-internationale-studierende-in-potsdam/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Beratung für internationale Studierende in Potsdam
-
 [o:kub:p:webseite-2:r:beratung-zu-asyl-und-aufenthalt]
 file_filter   = transifex/beratung-zu-asyl-und-aufenthalt/<lang>.html
 source_file   = transifex/beratung-zu-asyl-und-aufenthalt/de.html
@@ -41,14 +25,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Beratung zu Asyl und Aufenthalt
 
-[o:kub:p:webseite-2:r:box-anmeldung-deutschkurse]
-file_filter   = transifex/box-anmeldung-deutschkurse/<lang>.html
-source_file   = transifex/box-anmeldung-deutschkurse/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Anmeldung Deutschkurse
-
 [o:kub:p:webseite-2:r:box-anmeldung-frauenberatung]
 file_filter   = transifex/box-anmeldung-frauenberatung/<lang>.html
 source_file   = transifex/box-anmeldung-frauenberatung/de.html
@@ -56,30 +32,6 @@ source_lang   = de
 type          = HTML
 minimum_perc  = 100
 resource_name = Box - Anmeldung Frauen*Beratung
-
-[o:kub:p:webseite-2:r:box-bewerbung-fur-ein-praktikum]
-file_filter   = transifex/box-bewerbung-fur-ein-praktikum/<lang>.html
-source_file   = transifex/box-bewerbung-fur-ein-praktikum/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Bewerbung für ein Praktikum
-
-[o:kub:p:webseite-2:r:box-bis]
-file_filter   = transifex/box-bis/<lang>.html
-source_file   = transifex/box-bis/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - BIS
-
-[o:kub:p:webseite-2:r:box-coronahinweis-deutschkurse]
-file_filter   = transifex/box-coronahinweis-deutschkurse/<lang>.html
-source_file   = transifex/box-coronahinweis-deutschkurse/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Coronahinweis Deutschkurse
 
 [o:kub:p:webseite-2:r:box-der-ausflug-einmal-im-monat]
 file_filter   = transifex/box-der-ausflug-einmal-im-monat/<lang>.html
@@ -97,14 +49,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Box - Die KuB auf Facebook
 
-[o:kub:p:webseite-2:r:box-einladung-zur-gesprachsgruppe]
-file_filter   = transifex/box-einladung-zur-gesprachsgruppe/<lang>.html
-source_file   = transifex/box-einladung-zur-gesprachsgruppe/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Einladung zur Gesprächsgruppe
-
 [o:kub:p:webseite-2:r:box-formulare-verstehbar-machen]
 file_filter   = transifex/box-formulare-verstehbar-machen/<lang>.html
 source_file   = transifex/box-formulare-verstehbar-machen/de.html
@@ -120,22 +64,6 @@ source_lang   = de
 type          = HTML
 minimum_perc  = 100
 resource_name = Box - Kontakt Hörbücherei
-
-[o:kub:p:webseite-2:r:box-kub-in-brandenburg]
-file_filter   = transifex/box-kub-in-brandenburg/<lang>.html
-source_file   = transifex/box-kub-in-brandenburg/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - KuB in Brandenburg
-
-[o:kub:p:webseite-2:r:box-kunstprojekte]
-file_filter   = transifex/box-kunstprojekte/<lang>.html
-source_file   = transifex/box-kunstprojekte/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Kunstprojekte
 
 [o:kub:p:webseite-2:r:box-offnungszeiten]
 file_filter   = transifex/box-offnungszeiten/<lang>.html
@@ -185,22 +113,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Box - Unser Bankkonto
 
-[o:kub:p:webseite-2:r:box-weitere-angebote-der-kub-speziell-fur-frauen]
-file_filter   = transifex/box-weitere-angebote-der-kub-speziell-fur-frauen/<lang>.html
-source_file   = transifex/box-weitere-angebote-der-kub-speziell-fur-frauen/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Weitere Angebote der KuB speziell für Frauen
-
-[o:kub:p:webseite-2:r:das-team]
-file_filter   = transifex/das-team/<lang>.html
-source_file   = transifex/das-team/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Das Team
-
 [o:kub:p:webseite-2:r:datenschutzaushang]
 file_filter   = transifex/datenschutzaushang/<lang>.html
 source_file   = transifex/datenschutzaushang/de.html
@@ -232,22 +144,6 @@ source_lang   = de
 type          = MAGENTO
 minimum_perc  = 100
 resource_name = Flyer KuB 2017
-
-[o:kub:p:webseite-2:r:flyer-psb-gruppenangebot-2017]
-file_filter   = transifex/flyer-psb-gruppenangebot-2017/<lang>.csv
-source_file   = transifex/flyer-psb-gruppenangebot-2017/de.csv
-source_lang   = de
-type          = MAGENTO
-minimum_perc  = 100
-resource_name = Flyer PSB Gruppenangebot 2017
-
-[o:kub:p:webseite-2:r:for_use_website-2_forschungsprojekt-spam_dehtml]
-file_filter   = transifex/for_use_website-2_forschungsprojekt-spam_dehtml/<lang>.html
-source_file   = transifex/for_use_website-2_forschungsprojekt-spam_dehtml/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Foschungsprojekt "SpAM"
 
 [o:kub:p:webseite-2:r:geschichte-von-der-kub]
 file_filter   = transifex/geschichte-von-der-kub/<lang>.html
@@ -288,22 +184,6 @@ source_lang   = de
 type          = HTML
 minimum_perc  = 100
 resource_name = Persische Hörbücher
-
-[o:kub:p:webseite-2:r:praktikum-in-der-kub]
-file_filter   = transifex/praktikum-in-der-kub/<lang>.html
-source_file   = transifex/praktikum-in-der-kub/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Praktikum in der KuB
-
-[o:kub:p:webseite-2:r:praktikum-in-der-verwaltung]
-file_filter   = transifex/praktikum-in-der-verwaltung/<lang>.html
-source_file   = transifex/praktikum-in-der-verwaltung/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Praktikum in der Verwaltung
 
 [o:kub:p:webseite-2:r:referentinnen-pool]
 file_filter   = transifex/referentinnen-pool/<lang>.html
@@ -352,14 +232,6 @@ source_lang   = de
 type          = INI
 minimum_perc  = 100
 resource_name = template
-
-[o:kub:p:webseite-2:r:unsere-ziele]
-file_filter   = transifex/unsere-ziele/<lang>.html
-source_file   = transifex/unsere-ziele/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Unsere Ziele
 
 [o:kub:p:webseite-2:r:unterstutzung-durch-gesprache]
 file_filter   = transifex/unterstutzung-durch-gesprache/<lang>.html
