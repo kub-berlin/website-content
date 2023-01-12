@@ -2,6 +2,7 @@ import os
 import sys
 import csv
 import requests
+from html import unescape
 from pathlib import Path
 
 URL = 'https://kub-berlin.org/xi/admin/'
@@ -19,7 +20,7 @@ def prepare_body(html):
     assert lines[1].startswith('<h1>')
     assert lines[1].endswith('</h1>')
     return {
-        'title': lines[1][4:-5],
+        'title': unescape(lines[1][4:-5]),
         'body': '\n'.join(lines[2:-1]),
     }
 
