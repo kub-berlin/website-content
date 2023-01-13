@@ -73,14 +73,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Box - Sprachtandem-Warnung
 
-[o:kub:p:webseite-2:r:box-sprechzeiten-und-anmeldung-psb]
-file_filter   = transifex/box-sprechzeiten-und-anmeldung-psb/<lang>.html
-source_file   = transifex/box-sprechzeiten-und-anmeldung-psb/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Sprechzeiten und Anmeldung PSB
-
 [o:kub:p:webseite-2:r:box-startseite]
 file_filter   = transifex/box-startseite/<lang>.html
 source_file   = transifex/box-startseite/de.html
