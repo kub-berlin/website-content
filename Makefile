@@ -9,7 +9,8 @@ kubpush: scripts/kub_push.py .env website.csv
 
 .PHONY: normalize
 normalize:
-	find transifex website | xargs dos2unix
+	find transifex website -type f | xargs dos2unix
+	sed -i 's/%C3%B6/ö/g;s/%C3%BC/ü/g;s/o%CC%88/ö/g;s/u%CC%88/ü/g' $$(find transifex website -type f)
 
 .PHONY: txpull
 txpull: .tx/config
