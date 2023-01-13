@@ -17,6 +17,7 @@ cat website.csv | while read l; do
 			echo "apply $txpath" >&2
 			rm -rf "$path"
 			cp -r "$txpath" "$path"
+			sed -i 's/ data-tx-separate="false"//g' $(find website -type f)
 		fi
 	fi
 done
