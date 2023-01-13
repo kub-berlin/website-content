@@ -57,14 +57,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Box - Öffnungszeiten
 
-[o:kub:p:webseite-2:r:box-so-funktioniert-das-kub-sprach-tandem]
-file_filter   = transifex/box-so-funktioniert-das-kub-sprach-tandem/<lang>.html
-source_file   = transifex/box-so-funktioniert-das-kub-sprach-tandem/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - So funktioniert das KuB-Sprach-Tandem
-
 [o:kub:p:webseite-2:r:box-sprachtandem-warnung]
 file_filter   = transifex/box-sprachtandem-warnung/<lang>.html
 source_file   = transifex/box-sprachtandem-warnung/de.html
