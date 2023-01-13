@@ -49,14 +49,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Box - Formulare verstehbar machen
 
-[o:kub:p:webseite-2:r:box-kontakt-horbucherei]
-file_filter   = transifex/box-kontakt-horbucherei/<lang>.html
-source_file   = transifex/box-kontakt-horbucherei/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Kontakt Hörbücherei
-
 [o:kub:p:webseite-2:r:box-offnungszeiten]
 file_filter   = transifex/box-offnungszeiten/<lang>.html
 source_file   = transifex/box-offnungszeiten/de.html
