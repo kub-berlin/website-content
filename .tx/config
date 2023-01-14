@@ -73,14 +73,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Box - Startseite
 
-[o:kub:p:webseite-2:r:box-unser-bankkonto]
-file_filter   = transifex/box-unser-bankkonto/<lang>.html
-source_file   = transifex/box-unser-bankkonto/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Unser Bankkonto
-
 [o:kub:p:webseite-2:r:datenschutzaushang]
 file_filter   = transifex/datenschutzaushang/<lang>.html
 source_file   = transifex/datenschutzaushang/de.html
