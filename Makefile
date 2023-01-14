@@ -1,3 +1,7 @@
+.PHONY: status
+status: scripts/kub_status.py website.csv
+	python3 scripts/kub_status.py
+
 .PHONY: kubpull
 kubpull: scripts/kub_pull.py .env website.csv
 	env $$(cat .env | xargs) python3 scripts/kub_pull.py
