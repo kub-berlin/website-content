@@ -97,6 +97,14 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Deutsch lernen
 
+[o:kub:p:webseite-2:r:ehrenamtliche-mitarbeit]
+file_filter   = transifex/ehrenamtliche-mitarbeit/<lang>.html
+source_file   = transifex/ehrenamtliche-mitarbeit/de.html
+source_lang   = de
+type          = HTML
+minimum_perc  = 100
+resource_name = Ehrenamtliche Mitarbeit
+
 [o:kub:p:webseite-2:r:finanzierung-der-kub-unsicher]
 file_filter   = transifex/finanzierung-der-kub-unsicher/<lang>.html
 source_file   = transifex/finanzierung-der-kub-unsicher/de.html
