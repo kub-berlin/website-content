@@ -25,14 +25,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Beratung zu Asyl und Aufenthalt
 
-[o:kub:p:webseite-2:r:box-der-ausflug-einmal-im-monat]
-file_filter   = transifex/box-der-ausflug-einmal-im-monat/<lang>.html
-source_file   = transifex/box-der-ausflug-einmal-im-monat/de.html
-source_lang   = de
-type          = HTML
-minimum_perc  = 100
-resource_name = Box - Der Ausflug Einmal im Monat
-
 [o:kub:p:webseite-2:r:box-die-kub-auf-facebook]
 file_filter   = transifex/box-die-kub-auf-facebook/<lang>.html
 source_file   = transifex/box-die-kub-auf-facebook/de.html
