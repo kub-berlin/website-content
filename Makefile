@@ -15,8 +15,8 @@ kubpush: scripts/kub_push.py .env website.csv
 normalize:
 	find transifex website -type f | xargs dos2unix
 	sed -i 's/%C3%B6/ö/g;s/%C3%BC/ü/g;s/o%CC%88/ö/g;s/u%CC%88/ü/g' $$(find transifex website -type f)
-	sed -i 's/><\(div\|aside\|h3\|p\)/>\n<\1/g' `find transifex -type f`
-	sed -i 's/><\/\(div\|aside\|h3\)/>\n<\/\1/g' `find transifex -type f`
+	sed -i 's/><\(div\|aside\|h3\|tr\|thead\|p\)/>\n<\1/g' `find transifex -type f`
+	sed -i 's/><\/\(div\|aside\|h3\|tr\|thead\)/>\n<\/\1/g' `find transifex -type f`
 	sed -i 's/\(.\)<ul>/\1\n<ul>/g' `find transifex -type f`
 	sed -i 'H;1h;$$!d;x;s/\n<li>\n/\n<li>/g;s/\n<\/address>\n/<\/address>\n/g' `find transifex -type f`
 	sed -i "s/&#039;/'/g" `find transifex website -type f`
