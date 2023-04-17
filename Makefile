@@ -24,7 +24,7 @@ normalize:
 
 .PHONY: txpull
 txpull: .tx/config
-	tx pull -a --use-git-timestamps
+	tx pull -a -f
 
 .tx/config:
 	tx init
