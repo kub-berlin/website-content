@@ -24,31 +24,42 @@ def add_orphan(path):
 with open('website.csv') as fh:
     for id, slug, txid in csv.reader(fh):
         key = f'{int(id):03}-{slug}'
+        skip = False
+
+        kubpath = kubroot / key / 'de.html'
+        if not kubpath.exists():
+            source_missing.append(kubpath)
+            skip = True
+        if txid:
+            txpath = txroot / txid / 'de.html'
+            if not txpath.exists():
+                source_missing.append(txpath)
+                skip = True
+            elif kubpath.exists() and not filecmp.cmp(kubpath, txpath):
+                source_differ.append((kubpath, txpath))
+                skip = True
+
+        if skip:
+            continue
 
         for lang in LANGS:
-            kubpath = kubroot / key / f'{lang}.html'
+            if lang == 'de':
+                continue
 
-            if lang == 'de' and not kubpath.exists():
-                source_missing.append(kubpath)
+            kubpath = kubroot / key / f'{lang}.html'
 
             if txid:
                 txpath = txroot / txid / f'{lang}.html'
 
-                if lang == 'de':
-                    if not txpath.exists():
-                        source_missing.append(txpath)
-                    elif kubpath.exists() and not filecmp.cmp(kubpath, txpath):
-                        source_differ.append((kubpath, txpath))
-                else:
-                    if kubpath.exists() and txpath.exists():
-                        if not filecmp.cmp(kubpath, txpath):
-                            translation_differ.append((kubpath, txpath))
-                    elif kubpath.exists():
-                        add_orphan(kubpath)
-                    elif txpath.exists():
-                        translation_available.append(kubpath)
+                if kubpath.exists() and txpath.exists():
+                    if not filecmp.cmp(kubpath, txpath):
+                        translation_differ.append((kubpath, txpath))
+                elif kubpath.exists():
+                    add_orphan(kubpath)
+                elif txpath.exists():
+                    translation_available.append(kubpath)
             else:
-                if lang != 'de' and kubpath.exists():
+                if kubpath.exists():
                     add_orphan(kubpath)
 
 
