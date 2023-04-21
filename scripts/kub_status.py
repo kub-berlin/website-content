@@ -35,7 +35,6 @@ with open('website.csv') as fh:
                 txpath = txroot / txid / f'{lang}.html'
 
                 if lang == 'de':
-                    txpath = txroot / txid / f'{lang}.html'
                     if not txpath.exists():
                         source_missing.append(txpath)
                     elif kubpath.exists() and not filecmp.cmp(kubpath, txpath):
