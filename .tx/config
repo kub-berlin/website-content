@@ -89,14 +89,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Finanzierung der KuB unsicher
 
-[o:kub:p:webseite-2:r:flyer-kub-2017]
-file_filter   = transifex/flyer-kub-2017/<lang>.csv
-source_file   = transifex/flyer-kub-2017/de.csv
-source_lang   = de
-type          = MAGENTO
-minimum_perc  = 100
-resource_name = Flyer KuB 2017
-
 [o:kub:p:webseite-2:r:geschichte-von-der-kub]
 file_filter   = transifex/geschichte-von-der-kub/<lang>.html
 source_file   = transifex/geschichte-von-der-kub/de.html
