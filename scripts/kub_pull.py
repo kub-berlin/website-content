@@ -4,7 +4,7 @@ import csv
 import requests
 from pathlib import Path
 
-URL = 'https://kub-berlin.org/xi/admin/translatable.php'
+URL = 'https://kub-berlin.org/website/admin/translatable.php'
 LANGS = ['de', 'en', 'fr', 'es', 'tr', 'ar', 'fa', 'ru']
 
 root = Path('website')

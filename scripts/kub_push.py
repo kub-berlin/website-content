@@ -5,7 +5,7 @@ import requests
 from html import unescape
 from pathlib import Path
 
-URL = 'https://kub-berlin.org/xi/admin/'
+URL = 'https://kub-berlin.org/website/admin/'
 LANGS = ['de', 'en', 'fr', 'es', 'tr', 'ar', 'fa', 'ru']
 
 root = Path('website')
