@@ -161,14 +161,6 @@ type          = HTML
 minimum_perc  = 100
 resource_name = Spenden
 
-[o:kub:p:webseite-2:r:sprachtandem]
-file_filter   = transifex/sprachtandem/<lang>.csv
-source_file   = transifex/sprachtandem/de.csv
-source_lang   = de
-type          = MAGENTO
-minimum_perc  = 100
-resource_name = Sprachtandem
-
 [o:kub:p:webseite-2:r:template]
 file_filter   = transifex/template/<lang>.ini
 source_file   = transifex/template/de.ini
