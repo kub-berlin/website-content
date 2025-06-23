@@ -9,8 +9,10 @@ URL = 'https://kub-berlin.org/website/admin/'
 LANGS = ['de', 'en', 'fr', 'es', 'tr', 'ar', 'fa', 'ru']
 
 root = Path('website')
-auth = (os.getenv('KUB_USER'), os.getenv('KUB_PASS'))
-headers = {'Cookie': 'csrf_token=' + os.getenv('KUB_CSRF_COOKIE')}
+headers = {
+    'Cookie': f'csrf_token={os.getenv("KUB_CSRF_COOKIE")}',
+    'Authorization': f'Bearer {os.getenv("KUB_TOKEN")}',
+}
 
 
 def prepare_body(html):
@@ -50,6 +52,5 @@ with open('website.csv') as fh:
                     'csrf_token': os.getenv('KUB_CSRF_DATA'),
                     **prepare_body(path.read_text()),
                 },
-                auth=auth,
                 headers=headers,
             ).raise_for_status()

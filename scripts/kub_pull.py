@@ -8,7 +8,9 @@ URL = 'https://kub-berlin.org/website/admin/translatable.php'
 LANGS = ['de', 'en', 'fr', 'es', 'tr', 'ar', 'fa', 'ru']
 
 root = Path('website')
-auth = (os.getenv('KUB_USER'), os.getenv('KUB_PASS'))
+headers = {
+    'Authorization': f'Bearer {os.getenv("KUB_TOKEN")}',
+}
 
 with open('website.csv') as fh:
     for id, slug, _txid in csv.reader(fh):
@@ -18,7 +20,7 @@ with open('website.csv') as fh:
         _dir.mkdir(parents=True, exist_ok=True)
 
         for lang in LANGS:
-            r = requests.get(URL, params={'page': id, 'lang': lang}, auth=auth)
+            r = requests.get(URL, params={'page': id, 'lang': lang}, headers=headers)
             if r.status_code == 404:
                 continue
             r.raise_for_status()
