@@ -14,6 +14,8 @@ headers = {
 
 with open('website.csv') as fh:
     for id, slug, _txid in csv.reader(fh):
+        if len(sys.argv) == 2 and id != sys.argv[1]:
+            continue
         key = f'{int(id):03}-{slug}'
         print(key, file=sys.stderr)
         _dir = root / key
