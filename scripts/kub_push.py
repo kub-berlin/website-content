@@ -36,7 +36,8 @@ with open('website.csv') as fh:
         print(key, file=sys.stderr)
         _dir = root / key
 
-        for lang in LANGS:
+        # push de last to not trigger outdated translations
+        for lang in reversed(LANGS):
             path = _dir / f'{lang}.html'
             if not path.exists():
                 continue
