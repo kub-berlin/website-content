@@ -21,6 +21,7 @@ normalize:
 	sed -i 'H;1h;$$!d;x;s/\n<li>\n/\n<li>/g;s/\n<\/address>\n/<\/address>\n/g' `find transifex -type f`
 	sed -i "s/&#039;/'/g" `find transifex website -type f`
 	sed -i 's/&quot;/"/g' `find transifex website -type f`
+	sed -i 's/> </></g' `find transifex website -type f`
 
 .PHONY: txpull
 txpull: .tx/config
