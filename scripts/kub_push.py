@@ -10,7 +10,7 @@ LANGS = ['de', 'en', 'fr', 'es', 'tr', 'ar', 'fa', 'ru']
 
 root = Path('website')
 headers = {
-    'Cookie': f'csrf_token={os.getenv("KUB_CSRF_COOKIE")}',
+    'Sec-Fetch-Site': 'same-origin',
     'Authorization': f'Bearer {os.getenv("KUB_TOKEN")}',
 }
 
@@ -50,7 +50,6 @@ with open('website.csv') as fh:
                     'lang': lang,
                 },
                 data={
-                    'csrf_token': os.getenv('KUB_CSRF_DATA'),
                     **prepare_body(path.read_text()),
                 },
                 headers=headers,
